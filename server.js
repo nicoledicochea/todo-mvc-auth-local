@@ -23,6 +23,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(logger('dev'))
 // Sessions
+// keeps user logged throughout different pages
 app.use(
     session({
       secret: 'keyboard cat',
