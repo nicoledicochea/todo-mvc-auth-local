@@ -1,0 +1,4 @@
+- add tailwind through terminal
+    - this will display data dynamically
+    - right now it doesn't work
+- wanted to use CKEDITOR for textarea but couldn't how to strip the html tags from the input
